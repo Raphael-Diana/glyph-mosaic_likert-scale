@@ -3,7 +3,7 @@
     <title>Glyph Likert Scale</title>
     <meta charset="utf-8">
     <script src="https://d3js.org/d3.v4.js"></script>
-    <script src="http://d3js.org/queue.v1.min.js"></script>
+    <script src="https://d3js.org/d3-queue.v3.min.js"></script>
     <style>
 
         /* style pour les glyphes */
@@ -57,7 +57,7 @@
         .attr('class', 'hidden tooltip');
 
     // chargement asynchrone des données
-    queue()
+    d3.queue()
     // les CSV n'en sont pas le caractere delimiteur est '\t'
         .defer(d3.tsv, "../datasets/16PF/data_truncated_30.csv")
         .await(processData);
