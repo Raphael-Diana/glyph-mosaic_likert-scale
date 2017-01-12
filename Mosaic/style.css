@@ -24,7 +24,7 @@ body{
 
 #image{
     height: 70%;
-    width: 55%;
+    width: 50%;
     overflow-y:auto;
     display: inline-block;
 }
