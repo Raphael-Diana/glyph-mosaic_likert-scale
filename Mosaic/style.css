@@ -4,7 +4,7 @@
 }
 
 body{
-    font: normal 12px Verdana, Arial, sans-serif;
+    font: normal 14px Verdana, Arial, sans-serif;
 }
 
 #titre{
@@ -97,6 +97,3 @@ div.tooltip {
 .hidden {
     display: none;
 }
-
-
-
