@@ -5,6 +5,8 @@
 
 body{
     font: normal 12px Verdana, Arial, sans-serif;
+    height: 100%;
+    width: 100%;
 }
 
 #titre{
